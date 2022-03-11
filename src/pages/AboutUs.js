@@ -16,3 +16,5 @@ const AboutUs = () => {
 };
 
 export default AboutUs;
+
+// AboutUs holds three different Components  <AboutSection /> /  <ServiceSection /> /    <FaqSection />

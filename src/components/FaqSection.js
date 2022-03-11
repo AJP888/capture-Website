@@ -39,3 +39,6 @@ const FaqSection = () => {
 };
 
 export default FaqSection;
+
+//COMMENTS
+// Bottom of the page FAQ info

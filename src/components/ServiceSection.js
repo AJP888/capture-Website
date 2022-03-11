@@ -53,3 +53,6 @@ const ServiceSection = () => {
 };
 
 export default ServiceSection;
+
+// Comments
+// Break down of four diffrent sections each one with a image inlcuding a icon i.e.    <img alt="icon" src={money} />
