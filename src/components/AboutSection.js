@@ -11,15 +11,15 @@ const AboutSection = () => {
       <Description>
         <div className="title">
           <Hide>
-            <h2>We Work to make</h2>
+            <h2>We Work To Make</h2>
           </Hide>
           <Hide>
             <h2>
-              Your <span>dreams</span> Come
+              Your <span>Dreams</span> Come
             </h2>
           </Hide>
           <Hide>
-            <h2>true.</h2>
+            <h2>True.</h2>
           </Hide>
         </div>
         <p>
