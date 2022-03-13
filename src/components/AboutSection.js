@@ -3,6 +3,7 @@ import home1 from "../img/home1.png";
 
 // Styled
 import styled from "styled-components";
+import { About, Description, Image, Hide } from "../styles";
 
 const AboutSection = () => {
   return (
@@ -36,45 +37,15 @@ const AboutSection = () => {
 
 // Styled Component
 
-const About = styled.div`
-  min-height: 90vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 5rem 10rem;
-  color: white;
-`;
-
-const Description = styled.div`
-  flex: 1;
-  padding-right: 5rem;
-  h2 {
-    font-family: lighter;
-  }
-`;
-
-const Image = styled.div`
-  flex: 1;
-  overflow: hidden;
-  img {
-    width: 100%;
-    height: 80vh;
-    object-fit: cover;
-  }
-`;
-
-const Hide = styled.div`
-  overflow: hidden;
-`;
-
 export default AboutSection;
 
 // COMMENTS
 // AboutSection holds the front page content
 // Using ] import styled from "styled-components"; allows to create inbult Css styling in the js file
-/*
-i.e.
 
+/*
+
+i.e.
 const About = styled.div`
   min-height: 90vh;
   display: flex;
@@ -84,7 +55,4 @@ const About = styled.div`
   color: white;
 `;
 <About> </About> then switching the divs to the styled name adds the styling
-
-
-
 */
